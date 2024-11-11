@@ -13,6 +13,10 @@ public class Queue {
         question= new QuestionSet[capacity];
     }
     
+    public Queue(){
+        this.capacity=50;
+    }
+    
     public void enQueue(QuestionSet qs){
         if (rear==capacity-1){
             System.out.println("Quses is full");

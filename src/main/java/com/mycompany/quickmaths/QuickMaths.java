@@ -11,6 +11,7 @@ package com.mycompany.quickmaths;
 public class QuickMaths {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        QuestionGenerator qs = new QuestionGenerator();
+        qs.generateAdditionQuestion(2);
     }
 }
